@@ -1,8 +1,32 @@
 .App {
+  background-color: brown;
   text-align: center;
+  border-style: ridge;
+  border-radius: 10px;
 }
 
-.App-logo {
+h3 {
+  display: inline;
+  margin: 12px;
+  font-size: 30px !important;
+}
+
+Button {
+  padding: 13px !important;
+  border-radius: 10px !important;
+  margin: 10px;
+  color: black;
+  background-color: bisque;
+  
+}
+
+.footer {
+  padding: 10px !important;
+  font-family: fantasy;
+  color: white;
+  background-color: black;
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +59,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
