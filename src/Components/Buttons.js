@@ -80,6 +80,8 @@ export default function Buttons (props) {
                 //if inital state reaches the final gif at index 9, the game is declared a loss
                 if (arrayCycle == 9) {
                     alert("You have lost :(")
+                    //then the game restarts
+                    window.location.reload(true)
                 }
             } else {
                 
