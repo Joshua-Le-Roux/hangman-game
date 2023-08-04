@@ -63,6 +63,8 @@ export default function Buttons (props) {
                 //joining the separated word array into a string and if the two are equal, user wins
                 if(stringDisplay === splitword.join()) {
                     alert("Congratulations! You have won !")
+                    //then the game restarts
+                    window.location.reload(true)
                 }
             }
             //else if for incorrect guesses
