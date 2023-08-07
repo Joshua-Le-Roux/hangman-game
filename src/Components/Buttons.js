@@ -71,7 +71,7 @@ export default function Buttons (props) {
             else if (find()[0] == -1){
                 //changes selected button to red
                 let button = document.getElementById(`${props.id}`)
-                button.style.backgroundColor = "red"  
+                button.style.visibility = "hidden"  
                 //makes the img element which displays the hangman graphic visible              
                 let img = document.getElementById('hangman')
                 img.style.visibility = 'visible'
