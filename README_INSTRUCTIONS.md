@@ -11,5 +11,5 @@ Each correct guess will turn the letter placeholder "_" into the actual guessed 
 
 Install and Run :
 To run this game on your local machine you should copy it to your computer
-and in the terminal, or gitBash, type in npm install to install dependencies,
-then type in npm start to run the game.
+and in the terminal, or gitBash, type in "npm install" to install dependencies,
+then type in "npm start" to run the game.
